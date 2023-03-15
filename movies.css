@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* 
+    Created on : Jan 24, 2023, 2:59:37 PM
+    Author     : Ann Smith
+    Comment: CSS for index page
+*/
+
+/* Perimeters for main HTML*/
+html {
+    background: linear-gradient(to bottom, #ff9900 0%, #ffff00 90%);
+    height:115;
+}
+
+/* Perimeters for body*/
+body{
+    margin: auto auto auto auto;
+    width: 90%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    color: #000000;
+    font-family: Ariel, sans-serif; 
+}
+
+/* Perimeters for main article section*/
+article p{
+    position: relative;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    
+    font-family: Ariel, sans-serif; 
+    font-size: 15pt;
+    width: 110%;
+}
+
+/* header font sizes*/
+h1 {font-size: 2.0em;}
+h2 {font-size: 1.5em;}
+
+
+/* Perimeters for header 1*/
+h1 {
+    font-family: "Comic Sans MS", cursive;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-align: center;
+}
+
+/*Perimeters for header 2*/
+h2 {
+    font-family: "Comic Sans MS", cursive;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-align: center;
+}
+
+/* Perimeters for blockquote*/
+
+section > blockquote {
+    font-family: Ariel, sans-serif; 
+    font-size: 12pt;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-align: left;
+    width: 100%;
+}
+section > blockquote > pre{
+    font-family: Ariel, sans-serif; 
+    font-size: 12pt;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-align: left;
+    width: 90%;
+}
+
+/* Perimeters for address table*/
+table 
+{
+    font-family: 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-align: center;
+    
+}
+
+/* Perimeters for footer*/
+footer {
+    color: #000000;
+    font: normal small-caps bold 0.9em/3em;
+    text-align: justify;
+}
+
+footer::after {
+    clear: both;
+    content: "";
+    display: table;
+}

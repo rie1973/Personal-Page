@@ -1,0 +1,116 @@
+<!doctype html>
+<!-- my form page -->
+<html lang="en">
+
+<meta charset="utf-8">
+<title> "Ann's Form Page" Page</title>
+<meta name="description" content="Ann Smith's Form Page">
+<meta name="keywords" content="Ann, form, main">
+<meta name="generator" content="Apache Netbeans (www.netbeans.apache.org)">
+<meta name="created" content="2023-02-06">
+<meta name="author" content="Ann Smith">
+<link href="form_css.css" rel="stylesheet" />
+
+</head>
+
+
+<html>   
+    <body>
+        <form name="donationForm" id="donationForm" 
+              action="http://www.rebol.com/cgi-bin/test-cgi.cgi" method="post" >
+        
+        <table class="blueTable">
+            <thead>
+                <tr>
+                    <th>Magazine Ordering Form</th>
+                    <td colspan="1">
+                </tr>
+            </thead>
+            
+        <tfoot>
+            <tr>
+                <th></th>
+                <td colspan="1">
+                    <input type="submit" value="Submit"/>
+                    <input type="reset" value="Reset"/>
+            </tr>
+        </tfoot>
+            
+        <tbody>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="firstname" value="" /></td>
+            </tr>
+            
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="lastname" value="" /></td>
+            </tr>
+            
+            <tr>
+                <td>Street Address</td>
+                <td><input type="text" name="streetaddress" value="" /></td>
+            </tr>
+    
+            <tr>
+                <td>Town/City</td>
+                <td><input type="text" name="town" value="" /></td>
+            </tr>
+            
+            <tr>
+                <td>State</td>
+                <td><input type="text" name="state" value="" maxlength="2" /></td>
+            </tr>
+            
+            <tr>
+                <td>Zip Code</td>
+                <td><input type="text" name="zipcode" value="" maxlength="5"/></td>
+            </tr>
+
+            <tr>
+                <th> Please Choose Your Magazines</th>
+                    <td colspan="1">
+                        <input type="checkbox" name="Newsweek" />Newsweek<br />
+                        <input type="checkbox" name="Time" />Time<br />
+                        <input type="checkbox" name="SportsIllustrated" />Sports Illustrated<br />
+                        <input type="checkbox" name="InternetWorld" />Internet World<br />
+            </tr>
+            
+            <tr>
+                <th>Payment Options</th>
+                    <td colspan="1">
+                    <input type="radio" name="pay" />Pay By Check<br />
+                    <input type="radio" name="pay" />Pay By Credit Card<br />
+            </tr>
+    
+            <tr>
+                <th>Credit Card Information</th>
+                    <td colspan="1">
+                        <select>
+                            <option value="mastercard"/>MasterCard</option>
+                            <option value="visa"/>Visa</option>
+                            <option value="discover"/>Discover</option>
+                        </select>
+            </tr>
+            
+            <tr>     
+                <td>Card Number</td>
+                <td><input type="text" name="cardnumber" value="" maxlength="20"/></td>           
+            </tr>
+            
+            <tr>     
+                <td>Expiration Date (mm/yy)</td>
+                <td><input type="text" name="expirationdate"  value="" maxlength="5"/></td>           
+            </tr>
+            
+            <tr>     
+                <td>Security Code</td>
+                <td><input type="text" name="securitycode" value="" maxlength="3" /></td>           
+            </tr>
+    
+        </tbody>
+    </table>   
+            
+    <p>Return to Index Page <a href="index.html" target="blank"> Index Page</a></p>        
+</body>
+</html>

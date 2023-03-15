@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* 
+    Created on : Feb 2, 2023, 1:30:37 PM
+    Author     : Ann Smith
+    Comment: CSS for index page
+*/
+
+html {
+    background-color: #ffe4e1;
+    height:100%;
+    margin: auto; padding: 50px;
+}
+
+
+/* Grid styles for Page Body*/
+body{
+    display: grid;
+    grid-template-areas:"header header header"
+                        "div div div"
+                        "h2 h3 h3" 
+                        "nav article article"  
+                        "table table table"
+                        "footer footer footer"                  
+}
+
+header{ 
+    grid-row: 1;
+    grid-column: row-start/row-end;
+    grid-area: header;
+}
+
+div#img{ 
+  grid-row: 2;
+  grid-column: 1;
+  grid-area: div;  
+}
+
+div#img{ 
+  grid-row: 2;
+  grid-column: 2;
+  grid-area: div;  
+}
+
+div#img{ 
+  grid-row: 2;
+  grid-column: 3;
+  grid-area: div;  
+}
+
+h2{
+    grid-row: 3;
+    grid-column: 3;
+    grid-area: h2;
+}
+
+h3{
+    grid-row: 3;
+    grid-column: 2/3;
+    grid-area: h3;
+}
+nav{
+    grid-row: 3;
+    grid-column: 1;
+    grid-area: nav;
+    grid-gap: 10px 10px;
+}
+
+article{
+    grid-row: 3;
+    grid-column: 2/3;
+    grid-area: article;
+}
+
+table{
+    grid-row: 6;
+    grid-column: row-start/row-end;
+    grid-area: table;
+}
+
+footer{
+    grid-row: 7;
+    grid-column: row-start/row-end;
+    grid-area: footer;
+}
+
+

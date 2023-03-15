@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* 
+    Created on : Jan 24, 2023, 2:59:37 PM
+    Author     : Ann Smith
+    Comment: CSS for index page
+*/
+
+/* Perimeters for main HTML*/
+html {
+    background: linear-gradient(to top, #ff6600 0%, #000000 89%);
+    height:110%;
+}
+
+/* Perimeters for body*/
+body{
+    position: relative;
+    color: #5b5b5b;
+    background-color: #FFE4C4;
+    font-family: Ariel, sans-serif; 
+}
+
+/* Perimeters for header images*/
+header figure {
+    margin: 15px auto 0px;
+    width: 60%;
+}
+
+header figure img {
+    display: block;
+    width: 100%;
+}
+
+header figure figcaption{
+    text-align: center;
+}
+
+/* Perimeters for main article section*/
+article p{ 
+    font-family: Ariel, sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    line-height: 1.0em;
+}
+
+/* Perimeters for  article list*/
+article ol{
+    font-family: Ariel, sans-serif; 
+    text-align: left;
+    line-height: 1.0em;
+}
+
+article ol li{
+    margin-left: 400px;
+    font-family: Ariel, sans-serif; 
+    text-align: left;
+     line-height: 1.0em;
+}
+
+/* header font sizes*/
+h1 {font-size: 2.0em;}
+h2 {font-size: 1.5em;}
+
+/* Perimeters for header 1*/
+h1 {
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #000000;
+    background-color: #ff6600;
+    text-align: center;
+}
+
+/* Perimeters for header 2*/
+article h2{
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #000000;
+    background-color: #ff6600;
+    text-align: center;
+}
+
+/* Perimeters for address table*/
+body> table{
+    font-family: Ariel, sans-serif;
+    letter-spacing: 0.1em;
+    color: #000000;
+    background-color: #FFE4C4;
+
+    text-align: center;
+}
+
+/* Perimeters for footer*/
+footer {
+    background-color: #FFE4C4;
+    color: #000000;
+    font: normal small-caps bold 0.9em/3em;
+    text-align: left;
+}
+
+footer::after {
+    clear: both;
+    content: "";
+    display: table;
+}

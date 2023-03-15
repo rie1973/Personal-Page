@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+
+/* 
+    Created on : Feb 6, 2023, 2:59:37 PM
+    Author     : Ann Smith
+    Comment:  CSS for form page
+*/
+
+
+table.blueTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 50%;
+  text-align: left;
+  border-collapse: collapse;
+
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+  font-size: 20px;
+}
+table.blueTable tbody td {
+  font-size: 20px;
+}
+table.blueTable tbody td tr{
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+  font-size: 20px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.blueTable thead {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #D0E4F5;
+  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  border-top: 2px solid #444444;
+}
+table.blueTable tfoot td {
+  font-size: 20px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+table.blueTable input{
+    font-size: 18px;
+}
+table.blueTable select{
+    font-size: 18px;
+}
+/* DivTable.com */
+table{
+	display: table;
+	width: 100%;
+}
+tableRow {
+	display: table-row;
+}
+tableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+tableCell, tableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+tableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+tableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+    font-size: 20px;
+}
+tableBody {
+	display: table-row-group;
+   
+}

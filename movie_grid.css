@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* 
+    Created on : Feb 2, 2023, 1:30:37 PM
+    Author     : Ann Smith
+    Comment: CSS for index page
+*/
+
+
+
+/* Grid styles for Page Body*/
+body{
+    display: grid;
+    grid-column-end: auto;
+    grid-template-areas:"header header header"
+                        "h2 h2 h2"  
+                        "section section section"
+                        "section section section"
+                        "h3 h3 h3" 
+                        "section section section"
+                        "table table table"
+                        "footer footer footer"                  
+}
+header > h1{ 
+    grid-row: 1;
+    grid-column: row-start/row-end;
+    grid-area: header;
+}
+
+section h2{
+    grid-row: 2;
+    grid-column: row-start/row-end;
+    grid-area: h2;
+    
+}
+
+section > div > img 
+{
+    grid-row: 3;
+    grid-column: 1;
+    grid-area: section;
+   
+}
+section > div > img 
+{
+    grid-row: 3;
+    grid-column: 3;
+    grid-area: section;
+   
+}
+
+section > p {
+    grid-row: 3;
+    grid-column:2;
+    grid-area: section;
+    
+}
+h3{
+    grid-row: 4;
+    grid-column: row-start/row-end;
+    grid-area: h3;
+}
+
+
+section > ul > li{ 
+  grid-row: 5;
+  grid-column: row-start/row-end;
+  grid-area: section;
+}
+
+
+table{
+    grid-row: 6;
+    grid-column: row-start/row-end;
+    grid-area: table;
+}
+
+footer{
+    grid-row: 7;
+    grid-column: row-start/row-end;
+    grid-area: footer;
+}
+

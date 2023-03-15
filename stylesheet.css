@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* 
+    Created on : Feb 9, 2023, 2:59:37 PM
+    Author     : Ann Smith
+    Comment:  CSS for form page
+*/
+html {
+    height:100px;
+}  
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    color: #000000;
+    background-color: #fff4e6;
+    font-family: Ariel, sans-serif;
+    max-width: 900px;
+    width: 100%;  
+}
+.grid-container{
+    
+  border: 10px solid #f76707;
+  border-radius: 20px;
+  background-color: #fff4e6;
+  display: grid;
+  padding: 2em;
+}
+
+div p{
+background-color: #fff4e6;
+    position: relative;
+    display: block;
+    font-family: Garamond, serif;
+    font-size: 16pt;  
+}
+
+div ol{
+    
+    background-color: #fff4e6;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Garamond, serif; 
+}
+
+/* Perimeters for headers */
+h1 {
+    font-family: "MV Boli";
+    font-weight: bold;
+    font-size: 2.0em;
+    letter-spacing: 0.1em;
+    color: #3d0066;
+    text-align: center;
+    text-decoration: underline;
+    transition: color 1.5s ease-in 0.5s,
+                font-size 2s ease,
+                letter-spacing 2s ease-out,
+                text-shadow 2s cubic-bezier(0.6, 0, 0.8, 0.5);
+}
+
+h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, h12, h13, h14, h15, h16, h17, h18 {
+    font-family: "ink free";
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-align: left;
+    text-decoration: underline;
+    transition: color 1.5s ease-in 0.5s,
+                font-size 2s ease,
+                letter-spacing 2s ease-out,
+                text-shadow 2s cubic-bezier(0.6, 0, 0.8, 0.5);
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, h7:hover, h8:hover,
+h9:hover, h10:hover, h11:hover, h12:hover, h13:hover, h14:hover, h15:hover,
+h16:hover, h17:hover, h18:hover
+{
+    color: #b366ff;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+}
+
+
+/* Perimeters for footer*/
+footer {
+    background-color: #fff4e6;
+    color: #000000;
+    
+    text-align: left;
+}
